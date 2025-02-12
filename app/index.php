@@ -11,6 +11,18 @@ $port = "3306";
     <title>Drenthe College docker web server</title>
 </head>
 <body>
-<h2>Hello world!</h2>
+    
+    <form action="Form-register.php" method="POST">
+        <p for="username">Gebruikersnaam:</p><br>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <p for="password">Wachtwoord:</p><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Registreren">
+    </form>
+</body>
+</html>
+
 </body>
 </html>
